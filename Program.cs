@@ -1,6 +1,10 @@
 ﻿// Написать программу, которая из имеющегося массива строк формирует массив из строк,
 // длина которых меньше либо равна 3 символа.
 
+/// <summary>
+/// Создаем новый массив из элементов первого массива, которые по длине <=3.
+/// </summary>
+/// <value> firstArray</value>
 string[] firstArray = new string[6] {"=)", "cats", "321", "44", "!", "@#$&"};
 string[] secondArray = new string[firstArray.Length];
 
@@ -28,4 +32,3 @@ void PrintArray(string[] array)
 
 GetResultArray(firstArray, secondArray);
 PrintArray(secondArray);
-
